@@ -4,10 +4,10 @@ using namespace std;
 class Student
 {
 private:
-	string name;
+	string name;//attributes
 	int score;
 public:
-	void setName(string _name)
+	void setName(string _name)//methods
 	{
 		name=_name;
 	}
@@ -26,15 +26,17 @@ public:
 };
 int main()
 {
-	Student stu;
 	int n;
 	cin >> n;
-	for (int i = 0; i < n; i++)
-	{
-		cin >> stu.setName("") >> stu.setScore();
-	}
-
-
+	for
+	Student stu01;
+	int score;
+	string name;
+	cin >> name >> score;
+	stu01.setName(name);
+	stu01.setScore(score);
+	stu01.getName();
+	stu01.getScore();
 
 
 

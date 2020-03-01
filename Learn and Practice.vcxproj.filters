@@ -18,7 +18,10 @@
     <ClCompile Include="book.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="causually.cpp">
+    <ClCompile Include="学生.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类的基础题4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
