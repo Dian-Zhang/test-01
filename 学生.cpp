@@ -26,9 +26,7 @@ public:
 };
 int main()
 {
-	int n;
-	cin >> n;
-	for
+
 	Student stu01;
 	int score;
 	string name;
@@ -42,6 +40,6 @@ int main()
 
 
 
-
+	system("pause");
 	return 0;
 }
