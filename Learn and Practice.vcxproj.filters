@@ -13,73 +13,109 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\19cpp上机考试A卷转普通练习">
+      <UniqueIdentifier>{727d3caf-10f5-4497-8062-d24c82cfd241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\19级cpp第二学期上机练习题第1次（智商康复训练）">
+      <UniqueIdentifier>{a5e47460-84e1-4e19-a62c-b57aae026500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\19级cpp第二学期上机练习题第2次（类的基础题）">
+      <UniqueIdentifier>{9bbf3928-1c98-497c-a385-4aca88acf18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\19级cpp第二学期上机练习题第3次（构造函数、析构函数）">
+      <UniqueIdentifier>{deb17070-0088-403c-accd-f81785651428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\19级cpp第二学期上机练习题第4次（类的小小综合%29">
+      <UniqueIdentifier>{dc526767-e718-411d-96d3-9e700bb4d5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NewFilter4">
+      <UniqueIdentifier>{cb54c820-c766-46cd-99d3-a932074134c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NewFilter5">
+      <UniqueIdentifier>{40e759e5-0ed1-4736-9123-206a0790c4a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NewFilter6">
+      <UniqueIdentifier>{322c43eb-f271-44db-b011-f9bb84ae3275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\19级cpp第二学期上机练习题第5次（静态成员）">
+      <UniqueIdentifier>{b3caa1e3-3c36-4655-8f45-d55ae2af9bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\19级cpp第二学期上机练习题第6次（对象数组和对象指针%29">
+      <UniqueIdentifier>{876e0786-cfea-44f4-96db-f273b4ae9dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\19级cpp第二学期上机练习题第7次（链表）">
+      <UniqueIdentifier>{8ed31e02-b635-43f3-983d-561f6665f4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++primer中的代码">
+      <UniqueIdentifier>{d5bfb478-3427-456c-9563-7089f1936f72}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="book.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="学生.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="类的基础题4.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="构造函数03.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="HelloWorld.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="practice.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="构造函数02.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\19级cpp第二学期上机练习题第3次（构造函数、析构函数）</Filter>
     </ClCompile>
     <ClCompile Include="构造函数01.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\19级cpp第二学期上机练习题第3次（构造函数、析构函数）</Filter>
     </ClCompile>
-    <ClCompile Include="构造函数和析构函数01.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="构造函数和析构函数02.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="构造函数02.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第3次（构造函数、析构函数）</Filter>
     </ClCompile>
     <ClCompile Include="构造函数和析构函数03.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\19级cpp第二学期上机练习题第3次（构造函数、析构函数）</Filter>
+    </ClCompile>
+    <ClCompile Include="构造函数和析构函数01.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第3次（构造函数、析构函数）</Filter>
+    </ClCompile>
+    <ClCompile Include="构造函数和析构函数02.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第3次（构造函数、析构函数）</Filter>
     </ClCompile>
     <ClCompile Include="构造函数04.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\19级cpp第二学期上机练习题第4次（类的小小综合%29</Filter>
     </ClCompile>
     <ClCompile Include="拷贝构造函数.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\19级cpp第二学期上机练习题第4次（类的小小综合%29</Filter>
     </ClCompile>
     <ClCompile Include="内联函数和外联函数.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="类的综合题01.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="类的综合题02.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="类的综合题03.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="类的综合题04.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\19级cpp第二学期上机练习题第4次（类的小小综合%29</Filter>
     </ClCompile>
     <ClCompile Include="类的综合题05.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\19级cpp第二学期上机练习题第4次（类的小小综合%29</Filter>
     </ClCompile>
-    <ClCompile Include="构造函数和虚构函数04.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="类的综合题01.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第4次（类的小小综合%29</Filter>
     </ClCompile>
-    <ClCompile Include="静态成员01.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="类的综合题02.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第4次（类的小小综合%29</Filter>
+    </ClCompile>
+    <ClCompile Include="类的综合题03.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第4次（类的小小综合%29</Filter>
+    </ClCompile>
+    <ClCompile Include="类的综合题04.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第4次（类的小小综合%29</Filter>
+    </ClCompile>
+    <ClCompile Include="类的基础题4.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第2次（类的基础题）</Filter>
     </ClCompile>
     <ClCompile Include="静态成员02.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\19级cpp第二学期上机练习题第5次（静态成员）</Filter>
+    </ClCompile>
+    <ClCompile Include="构造函数和虚构函数04.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第5次（静态成员）</Filter>
+    </ClCompile>
+    <ClCompile Include="静态成员01.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第5次（静态成员）</Filter>
+    </ClCompile>
+    <ClCompile Include="学生类.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第2次（类的基础题）</Filter>
+    </ClCompile>
+    <ClCompile Include="长方形类.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第2次（类的基础题）</Filter>
+    </ClCompile>
+    <ClCompile Include="倍数问题？.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第1次（智商康复训练）</Filter>
+    </ClCompile>
+    <ClCompile Include="book.cpp">
+      <Filter>源文件\C++primer中的代码</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
