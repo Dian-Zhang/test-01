@@ -75,6 +75,12 @@
     <ClCompile Include="构造函数和虚构函数04.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="静态成员01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="静态成员02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\Administrator\Desktop\讲义\第3阶段-C++核心编程 资料\讲义\C++核心编程.md">
