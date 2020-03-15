@@ -117,6 +117,15 @@
     <ClCompile Include="book.cpp">
       <Filter>源文件\C++primer中的代码</Filter>
     </ClCompile>
+    <ClCompile Include="对象数组01.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第6次（对象数组和对象指针%29</Filter>
+    </ClCompile>
+    <ClCompile Include="对象指针01.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第6次（对象数组和对象指针%29</Filter>
+    </ClCompile>
+    <ClCompile Include="对象指针02.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第6次（对象数组和对象指针%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\Administrator\Desktop\讲义\第3阶段-C++核心编程 资料\讲义\C++核心编程.md">
