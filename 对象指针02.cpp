@@ -40,25 +40,25 @@ Wolf::Wolf(string name, int weight)
 }
 void Wolf::eat(Goat* g)
 {
-    cout << name << " eats " << g->getName
-        << ", increasing " << g->getWeight << endl;
-    weight += g->getWeight;
+    cout << name << " eats " << g->getName()
+        << ", increasing " << g->getWeight() << " kg"<<endl;
+    weight += g->getWeight();
 }
 void print(Goat* g)
 {
-    cout << g->getName << " is a goat that weights "
-        << g->getWeight << " kg." << endl;
+    cout << g->getName() << " is a goat that weights "
+        << g->getWeight() << " kg." << endl;
 }
 void print(Wolf* w)
 {
-    cout << w->getName << " is a wolf that weights "
-        << w->getWeight << " kg." << endl;
+    cout << w->getName() << " is a wolf that weights "
+        << w->getWeight() << " kg." << endl;
 }
 int main()
 {
     Goat* g1 = new Goat("Pretty Goat", 47);
-    Goat* g2 = new Goat("Warm Goat", 60);
     Wolf* w1 = new Wolf("Wilie", 50);
+    Goat* g2 = new Goat("Warm Goat", 60);
     print(g1);
     print(g2);
     print(w1);
@@ -66,6 +66,8 @@ int main()
     w1->eat(g1);
     print(g2);
     print(w1);
+    //system("pause");
     return 0;
 }
+
 
