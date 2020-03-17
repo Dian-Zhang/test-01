@@ -9,13 +9,15 @@ private:
     int x;
 public:
     Planet(string name, int x);
-};
+    string getName() { return name; }
+    int getX() { return x; }
 
-void showDistance(Planet *p1,Planet *p2)
+};
+void showDistance(Planet &p1, Planet& p2)
 {
-    cout << "Distance between " << p1->name << " and "
-        << p2->name << " is "
-        << abs(p1.x - p2.x) << " km." << endl;
+    cout << "Distance between " <<p1.getName() << " and "
+        << p2.getName() << " is "
+        << abs(p1.getX() - p2.getX()) << " km." << endl;
 }
 int main()
 {
@@ -28,10 +30,10 @@ int main()
     };
     showDistance(p[0], p[2]);
     showDistance(p[2], p[3]);
-    system("pause");
+    //system("pause");
     return 0;
 }
-Planet::Planet(string name, int x) :name(name), x(x)
+Planet::Planet(string _name, int _x) :name(_name), x(_x)
 {
     cout << name << "'s constructor. Distance between "
         << name << " and Sun is " << x << " km." << endl;
