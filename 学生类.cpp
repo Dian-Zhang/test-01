@@ -7,17 +7,17 @@ private:
 	string name;//attributes
 	int score;
 public:
-	void setName(string _name)//methods
+	void setName(string name)//methods
 	{
-		name=_name;
+		this->name=name;
 	}
 	string getName()
 	{
 		return name;
 	}
-	void setScore(int _score)
+	void setScore(int score)
 	{
-		score = _score;
+		this->score = score;
 	}
 	int getScore()
 	{
@@ -26,20 +26,23 @@ public:
 };
 int main()
 {
+	int n;
+	cin >> n;
+	Student* stu = new Student[n];
+	for (int i = 0; i < n; i++)
+	{
+		string name;
+		int score;
+		cin >> name >> score;
+		stu[i].setName(name);
+		stu[i].setScore(score);
 
-	Student stu01;
-	int score;
-	string name;
-	cin >> name >> score;
-	stu01.setName(name);
-	stu01.setScore(score);
-	stu01.getName();
-	stu01.getScore();
-
-
-
-
-
-	system("pause");
+	}
+	for(int i = 0; i < n; i++)
+	{
+		cout << stu[i].getName() << " " 
+			<< stu[i].getScore() << endl;
+	}
+	//system("pause");
 	return 0;
 }

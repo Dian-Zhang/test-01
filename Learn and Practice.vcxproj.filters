@@ -28,15 +28,6 @@
     <Filter Include="源文件\19级cpp第二学期上机练习题第4次（类的小小综合%29">
       <UniqueIdentifier>{dc526767-e718-411d-96d3-9e700bb4d5cd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\NewFilter4">
-      <UniqueIdentifier>{cb54c820-c766-46cd-99d3-a932074134c9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\NewFilter5">
-      <UniqueIdentifier>{40e759e5-0ed1-4736-9123-206a0790c4a8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\NewFilter6">
-      <UniqueIdentifier>{322c43eb-f271-44db-b011-f9bb84ae3275}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\19级cpp第二学期上机练习题第5次（静态成员）">
       <UniqueIdentifier>{b3caa1e3-3c36-4655-8f45-d55ae2af9bd3}</UniqueIdentifier>
     </Filter>
@@ -108,12 +99,6 @@
     <ClCompile Include="学生类.cpp">
       <Filter>源文件\19级cpp第二学期上机练习题第2次（类的基础题）</Filter>
     </ClCompile>
-    <ClCompile Include="长方形类.cpp">
-      <Filter>源文件\19级cpp第二学期上机练习题第2次（类的基础题）</Filter>
-    </ClCompile>
-    <ClCompile Include="倍数问题？.cpp">
-      <Filter>源文件\19级cpp第二学期上机练习题第1次（智商康复训练）</Filter>
-    </ClCompile>
     <ClCompile Include="book.cpp">
       <Filter>源文件\C++primer中的代码</Filter>
     </ClCompile>
@@ -125,6 +110,24 @@
     </ClCompile>
     <ClCompile Include="对象指针02.cpp">
       <Filter>源文件\19级cpp第二学期上机练习题第6次（对象数组和对象指针%29</Filter>
+    </ClCompile>
+    <ClCompile Include="01星号阵列-杠铃.cpp">
+      <Filter>源文件\19cpp上机考试A卷转普通练习</Filter>
+    </ClCompile>
+    <ClCompile Include="02字符串排序.cpp">
+      <Filter>源文件\19cpp上机考试A卷转普通练习</Filter>
+    </ClCompile>
+    <ClCompile Include="08数字问题.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第1次（智商康复训练）</Filter>
+    </ClCompile>
+    <ClCompile Include="03倍数问题.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第1次（智商康复训练）</Filter>
+    </ClCompile>
+    <ClCompile Include="学生类02.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第2次（类的基础题）</Filter>
+    </ClCompile>
+    <ClCompile Include="长方形类.cpp">
+      <Filter>源文件\19级cpp第二学期上机练习题第2次（类的基础题）</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,5 @@
 #include<iostream>
-#include<math.h>
+#include<cmath>
 using namespace std;
 
 class Point
@@ -7,10 +7,7 @@ class Point
 private:
     double x, y;
 public:
-    Point(double _x, double _y) :x(_x), y(_y)
-    {
-        //无内容
-    }
+    Point(double x, double y) :x(x), y(y){}
     double getDistance()
     {
         return sqrt(x * x + y * y);
@@ -19,7 +16,7 @@ public:
     {
         //卧槽，这一行代码我是怎么想到的？
         //我真是天才啊
-        return sqrt((x - p.x) * (x - p.x) + (y - p.y) * (y - p.y));
+        return sqrt(pow(x - p.x,2)+ pow(y - p.y,2));
     }
 };
 int main()
